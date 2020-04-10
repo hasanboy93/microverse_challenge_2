@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<div id="content">
+<div id="main">
     <div id="header">
         <h1 id="title">freeCodeCamp Survey Form</h1>
         <p id="description">Thank you for taking the time to help us improve the platform</p>
@@ -16,25 +16,26 @@
             <label for="name" id="name-label">
                 Name
             </label>
-            <input type="text" placeholder="Enter your name" name="name">
+            <input id="name" class="input-area" type="text" placeholder="Enter your name" name="name">
         </div>
         <div class="row-tab">
             <label for="email" id="email-label">
                 Email
             </label>
-            <input type="email" placeholder="Enter your Email" name="email">
+            <input id="email" class="input-area" type="email" placeholder="Enter your Email" name="email">
         </div>
         <div class="row-tab">
             <label for="age" id="number-label">
                 Age
             </label>
-            <input type="number" placeholder="Enter your age" name="age" min="12" max="99">
+            <input id="number" class="input-area" type="number" placeholder="Enter your age" name="age" min="12"
+                   max="99">
         </div>
         <div class="row-tab">
             <p>
                 Which option best describes your current role?
             </p>
-            <select id="drop-down">
+            <select id="dropdown" class="input-area">
                 <option disabled="" name="current-role" selected="">
                     Select current role
                 </option>
@@ -80,11 +81,12 @@
         </div>
         <div class="row-tab" id="submit-section">
 
-            <button type="submit">Submit</button>
+            <button id="submit" type="submit">Submit</button>
 
         </div>
+    </form>
 </div>
 
-</form>
+
 </body>
 </html>
