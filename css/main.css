@@ -1,0 +1,29 @@
+body {
+    background-color: lightsteelblue;
+}
+
+#content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#header {
+    text-align: center;
+}
+
+#description {
+    font-style: italic;
+}
+
+#survey-form {
+    background-color: lightblue;
+    padding: 15px;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.row-tab {
+    padding: 10px;
+    box-sizing: border-box;
+
+}
